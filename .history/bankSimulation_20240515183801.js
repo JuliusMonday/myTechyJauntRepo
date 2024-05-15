@@ -87,4 +87,4 @@ transactions.forEach(transaction => {
 
 console.log("Current Balance:", account.balance);
 console.log("Account Holders name", account.accountHolder);
-console.log("Account number", account.accountNumber);
+console.log("Account number", )
