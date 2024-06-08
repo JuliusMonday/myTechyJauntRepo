@@ -68,7 +68,7 @@ class Transaction {
 
 
 // Creating my bank account
-const account = new BankAccount("123456", "Monday", "Doe");
+const account = new BankAccount("123456", "John", "Doe");
 
 
 // Depositing money
@@ -85,6 +85,6 @@ transactions.forEach(transaction => {
     console.log(`Type: ${transaction.type}, Amount: ${transaction.amount}, Timestamp: ${transaction.timestamp}`);
 });
 
-console.log("Current Balance:", account.balance);
+console.loglog("Current Balance:", account.balance);
 console.log("Account Holders name", account.accountHolder);
 console.log("Account number", account.accountNumber);

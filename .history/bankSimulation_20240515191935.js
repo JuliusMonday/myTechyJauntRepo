@@ -68,7 +68,7 @@ class Transaction {
 
 
 // Creating my bank account
-const account = new BankAccount("123456", "Monday", "Doe");
+const account = new BankAccount("123456", "John", "Doe");
 
 
 // Depositing money
